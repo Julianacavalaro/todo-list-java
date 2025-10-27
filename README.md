@@ -1,4 +1,4 @@
-# todo-list-java
+### todo-list-java
 
 ## Sobre o Elas+ Tech
 
@@ -6,13 +6,21 @@ O **Elas+ Tech** é uma iniciativa exclusiva para mulheres e está dentre os pro
 
 ### Características do Programa
 
-- **100% Gratuito**: Formação completamente gratuita para todas as participantes
-- **1.500 Vagas**: Oportunidades em três trilhas de aprendizado:
-  - Back-end
-  - Front-end
-  - Dados
 - **Conteúdo Digital**: Aulas ao vivo e gravadas para flexibilidade de aprendizado
 - **Mentorias**: Acompanhamento profissional para impulsionar o desenvolvimento de carreira
+
+### Trilha Back-End
+
+- Primeiros passos em Java; 
+- Git e Versionamento; Programação Orientada a Objetos Básica (Java); 
+- Curso de Atualização Java: do 8 ao 21; 
+- Introdução a Estruturas de Dados; Banco de Dados; 
+- Programação Dinâmica (Algoritmos) em Java; Desenvolvimento com Spring; 
+- Design Patterns em Java; Testes de software; 
+- Como utilizar LLMs produtivamente;
+- Arquitetura Clean
+- Conteinerização com Docker, 
+- Segurança da Informação e System Design.
 
 ### Sobre este Projeto
 
