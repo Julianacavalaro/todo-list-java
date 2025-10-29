@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         boolean executando = true;
-
+        List<Tarefa> listaTarefas = new ArrayList<>();
         while(executando) {
 
             int opcao = Menu.exibeMenu();
@@ -15,7 +15,6 @@ public class Main {
             executando = switch (opcao) {
 
                 case 1 -> {
-
                     System.out.println("Digite o título: ");
                     String titulo = sc.nextLine();
                     System.out.println("Digite a descrição: ");
@@ -26,6 +25,8 @@ public class Main {
 
                     Tarefa novaTarefa = new Tarefa(titulo, Descricao, dataEntrega); //instância do objeto
                     System.out.println(novaTarefa);
+                    listaTarefas.add(novaTarefa);
+                    System.out.println(listaTarefas);
                     yield true;
                 }
                 case 2 -> {
