@@ -16,7 +16,7 @@ public class Menu {
         Scanner sc = new Scanner(System.in);
         int opcao = sc.nextInt();
         System.out.println("A opcao escolhida foi " + opcao);
-       // sc.nextLine();
+        sc.nextLine();
         return opcao;
 
     }
