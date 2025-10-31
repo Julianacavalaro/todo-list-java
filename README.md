@@ -15,7 +15,8 @@ O **Elas+ Tech** é uma iniciativa exclusiva para mulheres e está dentre os pro
 - Git e Versionamento; Programação Orientada a Objetos Básica (Java); 
 - Curso de Atualização Java: do 8 ao 21; 
 - Introdução a Estruturas de Dados; Banco de Dados; 
-- Programação Dinâmica (Algoritmos) em Java; Desenvolvimento com Spring; 
+- Programação Dinâmica (Algoritmos) em Java;
+- Desenvolvimento com Spring; 
 - Design Patterns em Java; Testes de software; 
 - Como utilizar LLMs produtivamente;
 - Arquitetura Clean
