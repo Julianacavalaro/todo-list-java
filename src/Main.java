@@ -73,7 +73,7 @@ public class Main {
                     yield true;
                 }
                 case 0 -> {
-                    System.out.println(listaTarefas);
+                    System.out.println("Sair");
                     yield false;
                 }
                 default -> {
