@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Menu {
@@ -19,5 +21,16 @@ public class Menu {
         sc.nextLine();
         return opcao;
 
+    }
+
+   static void listarTarefasPendentes(List<Tarefa> listaTarefas){
+        List<Tarefa> listaTarefasPendentes =  new ArrayList<>();
+        System.out.println("Listar tarefas pendentes");
+        for (Tarefa tarefa : listaTarefas) {
+            if (!tarefa.isConcluida()) {
+                listaTarefasPendentes.add(tarefa);
+            }
+        }
+        System.out.println(listaTarefasPendentes);
     }
 }

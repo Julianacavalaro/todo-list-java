@@ -28,13 +28,7 @@ public class Main {
                     yield true;
                 }
                 case 2 -> {
-                    System.out.println("Listar tarefas pendentes");
-                    for (Tarefa tarefa : listaTarefas) {
-                        if (!tarefa.isConcluida()) {
-                            listaTarefasPendentes.add(tarefa);
-                        }
-                    }
-                    System.out.println(listaTarefasPendentes);
+                    Menu.listarTarefasPendentes(listaTarefas);
                     yield true;
                 }
                 case 3 -> {
